@@ -263,15 +263,24 @@ const Projects: React.FC = () => {
       bgColor: "#4CAF50"
       },
       {
-      id: 2,
-      title: "SignSpeak – Sign Language Interconverter",
-      description: "A cross-platform mobile application designed to bridge communication barriers for the deaf and mute community. Developed using Flutter with a Django REST backend and TensorFlow-powered transfer learning for gesture recognition, achieving 97% accuracy. Incorporated real-time image preprocessing with OpenCV and optimized for mobile deployment using TensorFlow Lite.",
-      shortDescription: "Mobile app facilitating seamless sign language-to-text translation.",
-      technologies: ["Flutter", "TensorFlow", "TensorFlow Lite", "Django REST Framework", "OpenCV", "Python", "Mobile Development", "AI"],
-      github: "https://github.com/omkar3012/SignSpeak",
-      demo: "https://ieeexplore.ieee.org/document/10394992",
-      image: "/images/signspeak.jpg",
-      bgColor: "#2196F3"
+        id: 2,
+        title: "FoodSpeak – AI Food Recognition App",
+        description: "A cross-platform AI-powered mobile application that recognizes food items from images, suggests recipes, and provides nutritional data. Built using Flutter with offline support via TensorFlow Lite and enhanced accuracy using Clarifai and Google Vision APIs. Offers accessibility through text-to-speech and ensures secure API handling with encrypted local storage.",
+        shortDescription: "Mobile app for food recognition, recipe suggestions, and nutrition insights.",
+        technologies: [
+          "Flutter",
+          "TensorFlow Lite",
+          "Clarifai API",
+          "Google Vision API",
+          "Edamam API",
+          "Spoonacular API",
+          "Flutter Secure Storage",
+          "Text-to-Speech"
+        ],
+        github: "https://github.com/yourusername/foodspeak_final",  // Replace with actual repo if different
+        demo: "",  // Add a link if a demo or publication exists
+        image: "/images/foodspeak.jpg",  // Replace with actual image path if available
+        bgColor: "#2196F3"
       },
       {
       id: 3,
