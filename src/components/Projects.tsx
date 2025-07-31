@@ -253,6 +253,28 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
+      title: "DevDocs AI – RAG-Based Semantic Search Assistant",
+      description: "DevDocs AI is an AI-powered semantic search tool that enables developers to query large API specs and SDK documentation using a chat interface. It leverages Langchain, OpenAI GPT-3.5, and Supabase (pgvector) in a Retrieval-Augmented Generation (RAG) pipeline, achieving 92% answer accuracy while reducing resolution time by 75%.",
+      shortDescription: "LLM-powered RAG system for real-time semantic search over technical docs.",
+      technologies: [
+        "Langchain",
+        "OpenAI GPT-3.5",
+        "FastAPI",
+        "Kafka",
+        "Next.js",
+        "Supabase (pgvector)",
+        "Semantic Search",
+        "RAG",
+        "LLM",
+        "Vector Embeddings"
+      ],
+      github: "https://github.com/omkar3012/DevDocs-AI.git",
+      demo: "https://devdocs-ai.vercel.app/",
+      image: "/images/devdocs-ai.png",
+      bgColor: "#2E3A59"
+    },
+    {
+      id: 2,
       title: "Intelligent Traffic Control System",
       description: "An advanced traffic management solution leveraging AI and computer vision to optimize real-time traffic flows. Utilized Python, OpenCV, and YOLOv5 achieving 92% accuracy in vehicle detection from live traffic streams, integrated Apache Kafka for video streaming, and Flask-based microservices for efficient traffic signal adjustments. Improved average commuter wait times by 33%.",
       shortDescription: "AI-driven real-time traffic optimization using computer vision.",
@@ -263,7 +285,7 @@ const Projects: React.FC = () => {
       bgColor: "#4CAF50"
       },
       {
-        id: 2,
+        id: 3,
         title: "FoodSpeak – AI Food Recognition App",
         description: "A cross-platform AI-powered mobile application that recognizes food items from images, suggests recipes, and provides nutritional data. Built using Flutter with offline support via TensorFlow Lite and enhanced accuracy using Clarifai and Google Vision APIs. Offers accessibility through text-to-speech and ensures secure API handling with encrypted local storage.",
         shortDescription: "Mobile app for food recognition, recipe suggestions, and nutrition insights.",
@@ -282,17 +304,17 @@ const Projects: React.FC = () => {
         image: "/images/foodspeak.jpg",  // Replace with actual image path if available
         bgColor: "#2196F3"
       },
-      {
-      id: 3,
-      title: "Wellness Forever+",
-      description: "A holistic personal wellness web platform providing automated medical reminders, inventory management, and enhanced user engagement. Built with a ReactJS frontend and Node.js backend powered by MongoDB, this application features JWT authentication, RESTful API services, and scheduled task automation, ensuring robust performance and a highly interactive user experience.",
-      shortDescription: "Full-stack wellness app for automated health management and tracking.",
-      technologies: ["ReactJS", "Node.js", "Express", "MongoDB", "JWT", "Cron", "RESTful APIs", "Full Stack", "Health Tech"],
-      github: "https://github.com/yourusername/wellness-forever",
-      demo: "https://wellness-forever.com",
-      image: "/images/wellness-forever.jpg",
-      bgColor: "#FF9800"
-      }
+      // {
+      // id: 4,
+      // title: "Wellness Forever+",
+      // description: "A holistic personal wellness web platform providing automated medical reminders, inventory management, and enhanced user engagement. Built with a ReactJS frontend and Node.js backend powered by MongoDB, this application features JWT authentication, RESTful API services, and scheduled task automation, ensuring robust performance and a highly interactive user experience.",
+      // shortDescription: "Full-stack wellness app for automated health management and tracking.",
+      // technologies: ["ReactJS", "Node.js", "Express", "MongoDB", "JWT", "Cron", "RESTful APIs", "Full Stack", "Health Tech"],
+      // github: "https://github.com/yourusername/wellness-forever",
+      // demo: "https://wellness-forever.com",
+      // image: "/images/wellness-forever.jpg",
+      // bgColor: "#FF9800"
+      // }
       
   ];
 
